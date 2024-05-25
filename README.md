@@ -18,7 +18,10 @@ The current implementation serves as a proof of concept. The final version of Qu
 - **Faster Search** It supports a search pattern similar to fuzzy matching. It finds matches even for misspelled or partially typed words similar to VS Code Quick Open feature.  
 - **Easy Integration:** Currently leverages LabVIEW's Quick Drop functionality to invoke the Quick Open UI.
 - **User-Friendly Interface:** A clean and intuitive UI that allows you to find and open VIs with minimal effort.
-- 
+
+## Demo
+![Demo](Images/QuickOpenDemo.gif)
+
 ## Compatibility
 
 Developed in LabVIEW 2020, Quick Open is compatible with versions 2021 and above
