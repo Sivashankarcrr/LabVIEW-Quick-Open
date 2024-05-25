@@ -18,11 +18,15 @@ The current implementation serves as a proof of concept. The final version of Qu
 - **Faster Search** It supports a search pattern similar to fuzzy matching. It finds matches even for misspelled or partially typed words similar to VS Code Quick Open feature.  
 - **Easy Integration:** Currently leverages LabVIEW's Quick Drop functionality to invoke the Quick Open UI.
 - **User-Friendly Interface:** A clean and intuitive UI that allows you to find and open VIs with minimal effort.
+- 
+## Compatibility
+
+Developed in LabVIEW 2020, Quick Open is compatible with versions 2021 and above
 
 ## Installation
 
 1. **Download the Files:**
-   - Download the `Quick Open as QuickDrop Plugin.vi` and `QuickOpen.vi` files from the repository.
+   - Download the `Quick Open as QuickDrop Plugin.vi` and `QuickOpen.vi` files from the repository along with the folder.
 
 2. **Copy to Quick Drop Plugin Location:**
    - Navigate to your LabVIEW Quick Drop plugin directory. This is typically located at:
@@ -76,3 +80,11 @@ We welcome contributions from the community to enhance Quick Open. To contribute
    ```
 5. **Create a Pull Request:**
    - Open a pull request on the original repository and describe your changes in detail.
+  
+## Issues
+
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/Sivashankarcrr/QuickOpen/issues) on the GitHub repository. Provide as much detail as possible to help us address your concerns promptly.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Sivashankarcrr/QuickOpen/blob/main/LICENSE) file for more details.
